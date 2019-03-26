@@ -17,6 +17,11 @@
       Umar Hayat
   </author>
 
-    <plugin name="cordova-plugin-file" spec="~6.0.1" />
+    <content src="index.html" />
+    <access origin="*"/>
+    <allow-intent href="http://*/*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
     
 </widget>
